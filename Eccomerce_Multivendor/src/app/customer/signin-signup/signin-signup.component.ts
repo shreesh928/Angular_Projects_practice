@@ -67,6 +67,7 @@ export class SigninSignupComponent {
     });
   
   }
+  
 
   get rf(){
     return this.signUpform.controls;

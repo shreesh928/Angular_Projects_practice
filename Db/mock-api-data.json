@@ -51,8 +51,35 @@
             "aboutYou": "I am a programmer....",
             "uploadPhoto": "shreesh.png",
             "agreetc": true,
-            "role": "seller",
+            "role": "buyer",
             "id":2
+        },
+
+        {
+            "name": "shreesh tiwari",
+            "mobNumber":"1234567890",
+            "age":29,
+            "dob":"2003-05-11",
+            "email":"shreesh323@gmail.com",
+            "password":"12345678",
+            "address":{
+                "addLine1":"District Thane",
+                "addLine2":"Rabale",
+                "city":"Thane",
+                "state":"Maharshtra",
+                "zipCode":"400701"
+            },
+            "language":[
+                "English",
+                "Hindi",
+                "Bhojpuri"
+            ],
+            "gender":"Male",
+            "aboutYou": "I am a programmer....",
+            "uploadPhoto": "shreesh.png",
+            "agreetc": true,
+            "role": "seller",
+            "id":3
         }
     ],
     "products":[
@@ -63,7 +90,7 @@
                 "productDesc": "128GB storage, Gold variant, excellent camera quality.",
                 "mrp": "119900",
                 "dp": "109900",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 2,
@@ -72,7 +99,7 @@
                 "productDesc": "256GB storage, Phantom Black, S-Pen included.",
                 "mrp": "124999",
                 "dp": "115999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 3,
@@ -90,7 +117,7 @@
                 "productDesc": "16GB RAM, 256GB storage, Eternal Green color.",
                 "mrp": "61999",
                 "dp": "56999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 5,
@@ -108,7 +135,7 @@
                 "productDesc": "128GB storage, sleek design, and 120Hz OLED display.",
                 "mrp": "99999",
                 "dp": "94999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 7,
@@ -126,7 +153,7 @@
                 "productDesc": "150W UltraDart charging, 8GB RAM, Nitro Blue.",
                 "mrp": "42999",
                 "dp": "38999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 9,
@@ -135,7 +162,7 @@
                 "productDesc": "Gaming beast, 16GB RAM, 6000mAh battery, Strix Edition.",
                 "mrp": "79999",
                 "dp": "74999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 10,
@@ -153,7 +180,7 @@
                 "productDesc": "200MP camera, 12GB RAM, Interstellar Black.",
                 "mrp": "59999",
                 "dp": "55999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 12,
@@ -180,7 +207,7 @@
                 "productDesc": "Unique Glyph interface, 12GB RAM, Transparent design.",
                 "mrp": "32999",
                 "dp": "30999",
-                "status": "active"
+                "status": "publish"
             },
             {
                 "id": 15,

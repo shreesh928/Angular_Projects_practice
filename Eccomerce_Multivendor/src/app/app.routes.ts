@@ -11,39 +11,43 @@ import { SellerDashboardComponent } from './customer/seller/seller-dashboard/sel
 import { BuyerDashboardComponent } from './customer/buyer/buyer-dashboard/buyer-dashboard.component';
 import { CheckoutComponent } from './customer/buyer/checkout/checkout.component';
 import { PageNotFoundComponent } from './shared/layouts/page-not-found/page-not-found.component';
+import { AdminAuthGuardLogin, AdminAuthGuardService, BuyerAuthGuardService, SellerAuthGuardService, SellerBuyerAuthGuardLogin } from './shared/services/auth-guard.service';
 
 export const routes: Routes = [
     {path:"",redirectTo:"home", pathMatch:"full"},
+
     {path:"home",component:HomeComponent},
+
     {path:"my-profile",component:UserProfileComponent},
+
     {path:"contsct-us", component:ContactUsComponent},
     // admin
     {
-        path:'', children:[
+        path:'', canActivate:[AdminAuthGuardLogin],children:[
             {path:"admin-login", component: AdminLoginComponent}
         ]
     },
     {
-        path:'',children:[
+        path:'',canActivate:[AdminAuthGuardService],children:[
             {path:"admin-dashboard", component: AdminDashboardComponent},
             {path:"admin/user", component: UserCrudComponent},
             {path:"admin/product", component: ProductComponent}
         ]
     },
     {
-        path:'',children:[
+        path:'',canActivate:[SellerBuyerAuthGuardLogin],children:[
             {path: "sign-in", component: SigninSignupComponent},
             {path: "sign-up", component: SigninSignupComponent},
         ]
     },
     {
-        path:'',children:[
+        path:'',canActivate:[SellerAuthGuardService],children:[
             {path:"seller-dashboard", component: SellerDashboardComponent},
             {path:"seller/product", component: ProductComponent}
         ]
     },
     {
-        path:'',children:[
+        path:'',canActivate:[BuyerAuthGuardService],children:[
             {path:"buyer-dashboard",component:BuyerDashboardComponent},
             {path:"checkout",component:CheckoutComponent}
         ]

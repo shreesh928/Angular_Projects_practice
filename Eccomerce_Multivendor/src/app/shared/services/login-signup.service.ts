@@ -22,7 +22,7 @@ export class LoginSignupService {
   }
 
   adminLogin(user_name:any, password:any):Observable<any>{
-    return this.apiService.get(this.reg_url+'/user?email='+user_name+'&password='+password+'&role=admin');
+    return this.apiService.get(this.login_url+'/user?email='+user_name+'&password='+password+'&role=admin');
   }
 
 }
