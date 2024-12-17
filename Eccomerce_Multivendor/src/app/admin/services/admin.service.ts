@@ -8,9 +8,9 @@ import { Observable } from 'rxjs';
 export class AdminService {
 
   // all api urls
-  public user_url = "http://localhost:3000/user";
+  public user_url = "http://localhost:3000/user/";
   public product_url = "http://localhost:3000/products";
-  public all_user = "http://localhost:3000/user";
+  public all_user = "http://localhost:3000/user/";
 
 
   constructor(private apiService:HttpClient) { }
@@ -33,7 +33,7 @@ export class AdminService {
 
   // get single user
   singleUser(user_id:any){
-    return this.apiService.get(this.user_url, user_id);
+    return this.apiService.get(this.user_url+user_id);
   }
 
 

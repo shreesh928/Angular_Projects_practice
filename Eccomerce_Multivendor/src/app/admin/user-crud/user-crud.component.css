@@ -1,0 +1,9 @@
+.sim-pointer-edit{
+    color: blue;
+    cursor: pointer;
+}
+
+.sim-pointer-del{
+    color: red;
+    cursor: pointer;
+}
