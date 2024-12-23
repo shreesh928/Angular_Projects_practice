@@ -1,1 +1,109 @@
-<p>user-profile works!</p>
+<br>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <form [formGroup]="userProfileForm" (ngSubmit)="updateProfile()">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" formControlName="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobNumber">Mobile Number</label>
+                        <input type="tel" class="form-control" formControlName="mobNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Enter Your age</label>
+                        <input type="number" class="form-control" formControlName="age">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Enter Your DOB</label>
+                        <input type="date" class="form-control" formControlName="dob">
+                    </div>
+                    <!-- ------------ New Row --------------------->
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="example@gmail.com"
+                                formControlName="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" formControlName="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" formControlName="addLine1"
+                                placeholder="12,4 street">
+                        </div>
+                        <div class="form-group">
+                            <label for="address2">Address</label>
+                            <input type="text" class="form-control" formControlName="addLine2"
+                                placeholder="appartment, floor">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" formControlName="city" placeholder="City">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <select formControlName="state" class="form-control" >
+                                <option selected>Choose...</option>
+                                <option value="UP">UP</option>
+                                <option value="MH">MH</option>
+                                <option value="MP">MP</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">Zip Code</label>
+                            <input type="text" class="form-control" formControlName="zipCode" placeholder="Zip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="language">Language</label>
+                        <select multiple class="form-control" formControlName="language">
+                            <option value="Hindi">Hindi</option>
+                            <option value="Marathi">Marathi</option>
+                            <option value="English">English</option>
+                            <option value="Telgu">Telgu</option>
+                            <option value="Odiya">Odiya</option>
+                            <option value="Bhojpuri">Bhojpuri</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-inline" formControlName="gender" value="Male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-inline" formControlName="gender" value="Female">
+                            <label for="Female">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-inline" formControlName="gender" value="others"
+                                >
+                            <label for="others">Others</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="somthingAboutYou">Something About You</label>
+                        <textarea formControlName="aboutYou" class="form-control" rows="3" ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="uploadPhoto">Upload Your Photo</label>
+                        <input type="file" formControlName="uploadPhoto"  class="form-control">
+                    </div>
+                    
+                    
+                    <div class="form-group mt-2">
+                        <button class="btn btn-primary" >Update Your Profile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

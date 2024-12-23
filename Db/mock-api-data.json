@@ -1,341 +1,363 @@
 {
-    
-    "user":[
-        {
-            "name": "shreesh tiwari",
-            "mobNumber":"1234567890",
-            "age":29,
-            "dob":"2003-05-11",
-            "email":"shreesht0@gmail.com",
-            "password":"12345678",
-            "address":{
-                "addLine1":"District Thane",
-                "addLine2":"Rabale",
-                "city":"Thane",
-                "state":"Maharshtra",
-                "zipCode":"400701"
-            },
-            "language":[
-                "English",
-                "Hindi",
-                "Bhojpuri"
-            ],
-            "gender":"Male",
-            "aboutYou": "I am a programmer....",
-            "uploadPhoto": "shreesh.png",
-            "agreetc": true,
-            "role": "admin",
-            "id":1
-        },
-
-        {
-            "name": "shreesh tiwari",
-            "mobNumber":"1234567890",
-            "age":29,
-            "dob":"2003-05-11",
-            "email":"shreesht366@gmail.com",
-            "password":"12345678",
-            "address":{
-                "addLine1":"District Thane",
-                "addLine2":"Rabale",
-                "city":"Thane",
-                "state":"Maharshtra",
-                "zipCode":"400701"
-            },
-            "language":[
-                "English",
-                "Hindi",
-                "Bhojpuri"
-            ],
-            "gender":"Male",
-            "aboutYou": "I am a programmer....",
-            "uploadPhoto": "shreesh.png",
-            "agreetc": true,
-            "role": "buyer",
-            "id":2
-        },
-
-        {
-            "name": "shreesh tiwari",
-            "mobNumber":"1234567890",
-            "age":29,
-            "dob":"2003-05-11",
-            "email":"shreesh323@gmail.com",
-            "password":"12345678",
-            "address":{
-                "addLine1":"District Thane",
-                "addLine2":"Rabale",
-                "city":"Thane",
-                "state":"Maharshtra",
-                "zipCode":"400701"
-            },
-            "language":[
-                "English",
-                "Hindi",
-                "Bhojpuri"
-            ],
-            "gender":"Male",
-            "aboutYou": "I am a programmer....",
-            "uploadPhoto": "shreesh.png",
-            "agreetc": true,
-            "role": "seller",
-            "id":3
-        }
-    ],
-    "products":[
-            {
-                "id": 1,
-                "name": "iPhone 12 Pro Max",
-                "uploadPhoto": "https://example.com/images/iphone-12-pro-max.jpg",
-                "productDesc": "128GB storage, Gold variant, excellent camera quality.",
-                "mrp": "119900",
-                "dp": "109900",
-                "status": "publish"
-            },
-            {
-                "id": 2,
-                "name": "Samsung Galaxy S22 Ultra",
-                "uploadPhoto": "https://example.com/images/samsung-galaxy-s22-ultra.jpg",
-                "productDesc": "256GB storage, Phantom Black, S-Pen included.",
-                "mrp": "124999",
-                "dp": "115999",
-                "status": "publish"
-            },
-            {
-                "id": 3,
-                "name": "Google Pixel 7 Pro",
-                "uploadPhoto": "https://example.com/images/google-pixel-7-pro.jpg",
-                "productDesc": "128GB storage, Stormy Black, pure Android experience.",
-                "mrp": "84999",
-                "dp": "79999",
-                "status": "inactive"
-            },
-            {
-                "id": 4,
-                "name": "OnePlus 11",
-                "uploadPhoto": "https://example.com/images/oneplus-11.jpg",
-                "productDesc": "16GB RAM, 256GB storage, Eternal Green color.",
-                "mrp": "61999",
-                "dp": "56999",
-                "status": "publish"
-            },
-            {
-                "id": 5,
-                "name": "Xiaomi 13 Pro",
-                "uploadPhoto": "https://example.com/images/xiaomi-13-pro.jpg",
-                "productDesc": "12GB RAM, 256GB storage, ceramic design.",
-                "mrp": "79999",
-                "dp": "74999",
-                "status": "inactive"
-            },
-            {
-                "id": 6,
-                "name": "Sony Xperia 5 IV",
-                "uploadPhoto": "https://example.com/images/sony-xperia-5-iv.jpg",
-                "productDesc": "128GB storage, sleek design, and 120Hz OLED display.",
-                "mrp": "99999",
-                "dp": "94999",
-                "status": "publish"
-            },
-            {
-                "id": 7,
-                "name": "Oppo Find X5 Pro",
-                "uploadPhoto": "https://example.com/images/oppo-find-x5-pro.jpg",
-                "productDesc": "Dual 50MP camera, 256GB storage, Ceramic White.",
-                "mrp": "89999",
-                "dp": "84999",
-                "status": "inactive"
-            },
-            {
-                "id": 8,
-                "name": "Realme GT Neo 3",
-                "uploadPhoto": "https://example.com/images/realme-gt-neo-3.jpg",
-                "productDesc": "150W UltraDart charging, 8GB RAM, Nitro Blue.",
-                "mrp": "42999",
-                "dp": "38999",
-                "status": "publish"
-            },
-            {
-                "id": 9,
-                "name": "Asus ROG Phone 6",
-                "uploadPhoto": "https://example.com/images/asus-rog-phone-6.jpg",
-                "productDesc": "Gaming beast, 16GB RAM, 6000mAh battery, Strix Edition.",
-                "mrp": "79999",
-                "dp": "74999",
-                "status": "publish"
-            },
-            {
-                "id": 10,
-                "name": "Vivo X80 Pro",
-                "uploadPhoto": "https://example.com/images/vivo-x80-pro.jpg",
-                "productDesc": "12GB RAM, ZEISS optics, Cosmic Black finish.",
-                "mrp": "79999",
-                "dp": "75999",
-                "status": "draft"
-            },
-            {
-                "id": 11,
-                "name": "Motorola Edge 30 Ultra",
-                "uploadPhoto": "https://example.com/images/motorola-edge-30-ultra.jpg",
-                "productDesc": "200MP camera, 12GB RAM, Interstellar Black.",
-                "mrp": "59999",
-                "dp": "55999",
-                "status": "publish"
-            },
-            {
-                "id": 12,
-                "name": "Nokia X30 5G",
-                "uploadPhoto": "https://example.com/images/nokia-x30-5g.jpg",
-                "productDesc": "Eco-friendly design, 128GB storage, Pure Silver.",
-                "mrp": "39999",
-                "dp": "36999",
-                "status": "inactive"
-            },
-            {
-                "id": 13,
-                "name": "Poco F4 GT",
-                "uploadPhoto": "https://example.com/images/poco-f4-gt.jpg",
-                "productDesc": "Gaming triggers, 120W charging, Cyber Yellow.",
-                "mrp": "45999",
-                "dp": "41999",
-                "status": "draft"
-            },
-            {
-                "id": 14,
-                "name": "Nothing Phone (1)",
-                "uploadPhoto": "https://example.com/images/nothing-phone-1.jpg",
-                "productDesc": "Unique Glyph interface, 12GB RAM, Transparent design.",
-                "mrp": "32999",
-                "dp": "30999",
-                "status": "publish"
-            },
-            {
-                "id": 15,
-                "name": "iQOO 9T",
-                "uploadPhoto": "https://example.com/images/iqoo-9t.jpg",
-                "productDesc": "Snapdragon 8+ Gen 1, 120Hz AMOLED, Alpha variant.",
-                "mrp": "49999",
-                "dp": "45999",
-                "status": "draft"
-            }
-        ],
-
-       "orders": [
+  "user": [
     {
-        "id": 1,
-        "userId": 3,
-        "sellerId": 2,
-        "product": {
-            "name": "Polystar Door Curtain",
-            "uploadPhoto": "https://example.com/images/curtain.jpg",
-            "productDesc": "High-quality fabric with elegant design.",
-            "mrp": "1999",
-            "dp": "1799",
-            "status": "draft"
-        },
-        "deliveryAddress": {
-            "id": 0,
-            "addLine1": "Maharashtra",
-            "addLine2": "District Thane",
-            "city": "Thane",
-            "state": "Maharashtra",
-            "zipCode": 400601
-        },
-        "contact": "07045465673",
-        "dateTime": "18/09/2024"
+      "name": "shreesh tiwari",
+      "mobNumber": "1234567890",
+      "age": 29,
+      "dob": "2003-05-11",
+      "email": "shreesht0@gmail.com",
+      "password": "12345678",
+      "address": {
+        "addLine1": "District Thane",
+        "addLine2": "Rabale",
+        "city": "Thane",
+        "state": "Maharshtra",
+        "zipCode": "400701"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Bhojpuri"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a programmer....",
+      "uploadPhoto": "shreesh.png",
+      "agreetc": true,
+      "role": "admin",
+      "id": "1"
     },
     {
-        "id": 2,
-        "userId": 7,
-        "sellerId": 5,
-        "product": {
-            "name": "iPhone 13",
-            "uploadPhoto": "https://example.com/images/iphone13.jpg",
-            "productDesc": "128GB, Midnight color, excellent camera.",
-            "mrp": "79999",
-            "dp": "75999",
-            "status": "shipped"
-        },
-        "deliveryAddress": {
-            "id": 1,
-            "addLine1": "Karnataka",
-            "addLine2": "Koramangala",
-            "city": "Bangalore",
-            "state": "Karnataka",
-            "zipCode": 560034
-        },
-        "contact": "09123456789",
-        "dateTime": "20/09/2024"
+      "name": "shreesh tiwari",
+      "mobNumber": "1234567890",
+      "age": 29,
+      "dob": "2003-05-11",
+      "email": "shreesht366@gmail.com",
+      "password": "12345678",
+      "address": {
+        "addLine1": "District Thane",
+        "addLine2": "Rabale",
+        "city": "Thane",
+        "state": "Maharshtra",
+        "zipCode": "400701"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Bhojpuri"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a programmer....",
+      "uploadPhoto": "shreesh.png",
+      "agreetc": true,
+      "role": "buyer",
+      "id": "2"
     },
     {
-        "id": 3,
-        "userId": 9,
-        "sellerId": 3,
-        "product": {
-            "name": "Samsung Galaxy S22",
-            "uploadPhoto": "https://example.com/images/galaxy-s22.jpg",
-            "productDesc": "Phantom Black, 256GB, with S-Pen.",
-            "mrp": "124999",
-            "dp": "119999",
-            "status": "delivered"
-        },
-        "deliveryAddress": {
-            "id": 2,
-            "addLine1": "Gujarat",
-            "addLine2": "Sector 21",
-            "city": "Gandhinagar",
-            "state": "Gujarat",
-            "zipCode": 382021
-        },
-        "contact": "09876543210",
-        "dateTime": "22/09/2024"
+      "name": "shreesh tiwari",
+      "mobNumber": "1234567890",
+      "age": 29,
+      "dob": "2003-05-11",
+      "email": "shreesh323@gmail.com",
+      "password": "12345678",
+      "address": {
+        "addLine1": "District Thane",
+        "addLine2": "Rabale",
+        "city": "Thane",
+        "state": "Maharshtra",
+        "zipCode": "400701"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Bhojpuri"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a programmer....",
+      "uploadPhoto": "shreesh.png",
+      "agreetc": true,
+      "role": "seller",
+      "id": "3"
     },
     {
-        "id": 4,
-        "userId": 5,
-        "sellerId": 1,
-        "product": {
-            "name": "Asus ROG Laptop",
-            "uploadPhoto": "https://example.com/images/asus-rog.jpg",
-            "productDesc": "Gaming laptop with 16GB RAM, RTX 3060.",
-            "mrp": "149999",
-            "dp": "139999",
-            "status": "processing"
-        },
-        "deliveryAddress": {
-            "id": 3,
-            "addLine1": "Tamil Nadu",
-            "addLine2": "Anna Nagar",
-            "city": "Chennai",
-            "state": "Tamil Nadu",
-            "zipCode": 600040
-        },
-        "contact": "09876543211",
-        "dateTime": "25/09/2024"
-    },
-    {
-        "id": 5,
-        "userId": 10,
-        "sellerId": 4,
-        "product": {
-            "name": "Noise Smart Watch",
-            "uploadPhoto": "https://example.com/images/noise-watch.jpg",
-            "productDesc": "Fitness tracker with AMOLED display.",
-            "mrp": "4999",
-            "dp": "4599",
-            "status": "cancelled"
-        },
-        "deliveryAddress": {
-            "id": 4,
-            "addLine1": "Delhi",
-            "addLine2": "Connaught Place",
-            "city": "New Delhi",
-            "state": "Delhi",
-            "zipCode": 110001
-        },
-        "contact": "09111112222",
-        "dateTime": "30/09/2024"
+      "name": "shreesh",
+      "password": "12345678",
+      "uploadPhoto": "buyer",
+      "role": "buyer",
+      "mobNumber": "1234567890",
+      "address": {
+        "id": 0,
+        "addLine1": "mumbai 1",
+        "addLine2": "Thane",
+        "city": "mumbai",
+        "state": "MH",
+        "zipCode": "400701"
+      },
+      "gender": "Male",
+      "language": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ],
+      "email": "shreesh@gmail.com",
+      "dob": "2024-12-23",
+      "agreetc": true,
+      "age": 22,
+      "aboutYou": "ewrwrertret",
+      "id": "437c"
     }
-]
-
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 12 Pro Max",
+      "uploadPhoto": "https://example.com/images/iphone-12-pro-max.jpg",
+      "productDesc": "128GB storage, Gold variant, excellent camera quality.",
+      "mrp": "119900",
+      "dp": "109900",
+      "status": "publish"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S22 Ultra",
+      "uploadPhoto": "https://example.com/images/samsung-galaxy-s22-ultra.jpg",
+      "productDesc": "256GB storage, Phantom Black, S-Pen included.",
+      "mrp": "124999",
+      "dp": "115999",
+      "status": "publish"
+    },
+    {
+      "id": "3",
+      "name": "Google Pixel 7 Pro",
+      "uploadPhoto": "https://example.com/images/google-pixel-7-pro.jpg",
+      "productDesc": "128GB storage, Stormy Black, pure Android experience.",
+      "mrp": "84999",
+      "dp": "79999",
+      "status": "inactive"
+    },
+    {
+      "id": "4",
+      "name": "OnePlus 11",
+      "uploadPhoto": "https://example.com/images/oneplus-11.jpg",
+      "productDesc": "16GB RAM, 256GB storage, Eternal Green color.",
+      "mrp": "61999",
+      "dp": "56999",
+      "status": "publish"
+    },
+    {
+      "id": "5",
+      "name": "Xiaomi 13 Pro",
+      "uploadPhoto": "https://example.com/images/xiaomi-13-pro.jpg",
+      "productDesc": "12GB RAM, 256GB storage, ceramic design.",
+      "mrp": "79999",
+      "dp": "74999",
+      "status": "inactive"
+    },
+    {
+      "id": "6",
+      "name": "Sony Xperia 5 IV",
+      "uploadPhoto": "https://example.com/images/sony-xperia-5-iv.jpg",
+      "productDesc": "128GB storage, sleek design, and 120Hz OLED display.",
+      "mrp": "99999",
+      "dp": "94999",
+      "status": "publish"
+    },
+    {
+      "id": "7",
+      "name": "Oppo Find X5 Pro",
+      "uploadPhoto": "https://example.com/images/oppo-find-x5-pro.jpg",
+      "productDesc": "Dual 50MP camera, 256GB storage, Ceramic White.",
+      "mrp": "89999",
+      "dp": "84999",
+      "status": "inactive"
+    },
+    {
+      "id": "8",
+      "name": "Realme GT Neo 3",
+      "uploadPhoto": "https://example.com/images/realme-gt-neo-3.jpg",
+      "productDesc": "150W UltraDart charging, 8GB RAM, Nitro Blue.",
+      "mrp": "42999",
+      "dp": "38999",
+      "status": "publish"
+    },
+    {
+      "id": "9",
+      "name": "Asus ROG Phone 6",
+      "uploadPhoto": "https://example.com/images/asus-rog-phone-6.jpg",
+      "productDesc": "Gaming beast, 16GB RAM, 6000mAh battery, Strix Edition.",
+      "mrp": "79999",
+      "dp": "74999",
+      "status": "publish"
+    },
+    {
+      "id": "10",
+      "name": "Vivo X80 Pro",
+      "uploadPhoto": "https://example.com/images/vivo-x80-pro.jpg",
+      "productDesc": "12GB RAM, ZEISS optics, Cosmic Black finish.",
+      "mrp": "79999",
+      "dp": "75999",
+      "status": "draft"
+    },
+    {
+      "id": "11",
+      "name": "Motorola Edge 30 Ultra",
+      "uploadPhoto": "https://example.com/images/motorola-edge-30-ultra.jpg",
+      "productDesc": "200MP camera, 12GB RAM, Interstellar Black.",
+      "mrp": "59999",
+      "dp": "55999",
+      "status": "publish"
+    },
+    {
+      "id": "12",
+      "name": "Nokia X30 5G",
+      "uploadPhoto": "https://example.com/images/nokia-x30-5g.jpg",
+      "productDesc": "Eco-friendly design, 128GB storage, Pure Silver.",
+      "mrp": "39999",
+      "dp": "36999",
+      "status": "inactive"
+    },
+    {
+      "id": "13",
+      "name": "Poco F4 GT",
+      "uploadPhoto": "https://example.com/images/poco-f4-gt.jpg",
+      "productDesc": "Gaming triggers, 120W charging, Cyber Yellow.",
+      "mrp": "45999",
+      "dp": "41999",
+      "status": "draft"
+    },
+    {
+      "id": "14",
+      "name": "Nothing Phone (1)",
+      "uploadPhoto": "https://example.com/images/nothing-phone-1.jpg",
+      "productDesc": "Unique Glyph interface, 12GB RAM, Transparent design.",
+      "mrp": "32999",
+      "dp": "30999",
+      "status": "publish"
+    },
+    {
+      "id": "15",
+      "name": "iQOO 9T",
+      "uploadPhoto": "https://example.com/images/iqoo-9t.jpg",
+      "productDesc": "Snapdragon 8+ Gen 1, 120Hz AMOLED, Alpha variant.",
+      "mrp": "49999",
+      "dp": "45999",
+      "status": "draft"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "name": "Polystar Door Curtain",
+        "uploadPhoto": "https://example.com/images/curtain.jpg",
+        "productDesc": "High-quality fabric with elegant design.",
+        "mrp": "1999",
+        "dp": "1799",
+        "status": "draft"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Maharashtra",
+        "addLine2": "District Thane",
+        "city": "Thane",
+        "state": "Maharashtra",
+        "zipCode": 400601
+      },
+      "contact": "07045465673",
+      "dateTime": "18/09/2024"
+    },
+    {
+      "id": "2",
+      "userId": 7,
+      "sellerId": 5,
+      "product": {
+        "name": "iPhone 13",
+        "uploadPhoto": "https://example.com/images/iphone13.jpg",
+        "productDesc": "128GB, Midnight color, excellent camera.",
+        "mrp": "79999",
+        "dp": "75999",
+        "status": "shipped"
+      },
+      "deliveryAddress": {
+        "id": 1,
+        "addLine1": "Karnataka",
+        "addLine2": "Koramangala",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": 560034
+      },
+      "contact": "09123456789",
+      "dateTime": "20/09/2024"
+    },
+    {
+      "id": "3",
+      "userId": 9,
+      "sellerId": 3,
+      "product": {
+        "name": "Samsung Galaxy S22",
+        "uploadPhoto": "https://example.com/images/galaxy-s22.jpg",
+        "productDesc": "Phantom Black, 256GB, with S-Pen.",
+        "mrp": "124999",
+        "dp": "119999",
+        "status": "delivered"
+      },
+      "deliveryAddress": {
+        "id": 2,
+        "addLine1": "Gujarat",
+        "addLine2": "Sector 21",
+        "city": "Gandhinagar",
+        "state": "Gujarat",
+        "zipCode": 382021
+      },
+      "contact": "09876543210",
+      "dateTime": "22/09/2024"
+    },
+    {
+      "id": "4",
+      "userId": 5,
+      "sellerId": 1,
+      "product": {
+        "name": "Asus ROG Laptop",
+        "uploadPhoto": "https://example.com/images/asus-rog.jpg",
+        "productDesc": "Gaming laptop with 16GB RAM, RTX 3060.",
+        "mrp": "149999",
+        "dp": "139999",
+        "status": "processing"
+      },
+      "deliveryAddress": {
+        "id": 3,
+        "addLine1": "Tamil Nadu",
+        "addLine2": "Anna Nagar",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": 600040
+      },
+      "contact": "09876543211",
+      "dateTime": "25/09/2024"
+    },
+    {
+      "id": "5",
+      "userId": 10,
+      "sellerId": 4,
+      "product": {
+        "name": "Noise Smart Watch",
+        "uploadPhoto": "https://example.com/images/noise-watch.jpg",
+        "productDesc": "Fitness tracker with AMOLED display.",
+        "mrp": "4999",
+        "dp": "4599",
+        "status": "cancelled"
+      },
+      "deliveryAddress": {
+        "id": 4,
+        "addLine1": "Delhi",
+        "addLine2": "Connaught Place",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zipCode": 110001
+      },
+      "contact": "09111112222",
+      "dateTime": "30/09/2024"
+    }
+  ]
 }

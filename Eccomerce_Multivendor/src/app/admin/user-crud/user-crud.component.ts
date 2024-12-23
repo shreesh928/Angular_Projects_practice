@@ -98,10 +98,12 @@ export class UserCrudComponent implements OnInit {
   addUser(){
     this.addEditUser = true;
     if(this.addEditUserForm.invalid){
+      console.log('Form Errors:', JSON.stringify(this.addEditUserForm.value));  // Log form errors
       alert('Error!! :-)\n\n'+JSON.stringify(this.addEditUserForm.value));
       return;
     }
     this.user_reg_data = this.addEditUserForm.value;
+    this.addEditUserForm.reset()
     this.user_dto = {
       name:this.user_reg_data.name,
       password:this.user_reg_data.password,
@@ -152,8 +154,8 @@ export class UserCrudComponent implements OnInit {
         dob:this.single_user_data.dob,
         email:this.single_user_data.email,
         password:this.single_user_data.password,
-        language:"",
-        gender:"",
+        language:this.single_user_data.language,
+        gender:this.single_user_data.gender,
         addLine1:this.single_user_data.address.addLine1,
         addLine2:this.single_user_data.address.addLine2,
         city:this.single_user_data.address.city,
@@ -177,11 +179,12 @@ export class UserCrudComponent implements OnInit {
       alert('Error!! :-)\n\n'+JSON.stringify(this.addEditUserForm.value));
       return;
     }
+    
     this.user_reg_data = this.addEditUserForm.value;
     this.user_dto = {
       name:this.user_reg_data.name,
       password:this.user_reg_data.password,
-      uploadPhoto:(this.user_reg_data.uploadPhoto == ""?this.upload_file_name: this.user_reg_data.role),
+      uploadPhoto:(this.user_reg_data.uploadPhoto == ""?this.upload_file_name: this.user_reg_data.uploadPhoto),
       role:this.user_reg_data.role,
       mobNumber:this.user_reg_data.mobNumber,
       address:{
@@ -200,7 +203,8 @@ export class UserCrudComponent implements OnInit {
       age:this.user_reg_data.age,
       aboutYou:this.user_reg_data.aboutYou,
     }
-    this.adminService.editUser(this.edit_user,this.user_dto).subscribe(data=>{
+    this.adminService.editUser(this.edit_user_id,this.user_dto).subscribe(data=>{
+      this.addEditUserForm.reset()
       this.getAllUser();
       JQuery('#addEditUserModal').modal('toggle');
     }, error=>{

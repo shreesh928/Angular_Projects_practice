@@ -39,7 +39,7 @@ export class AdminService {
 
   // update the of individual user
   editUser(user_id:any, user_dto:any){
-    return this.apiService.post(this.user_url+user_id, user_dto);
+    return this.apiService.put(this.user_url+user_id, user_dto);
   }
 
   
