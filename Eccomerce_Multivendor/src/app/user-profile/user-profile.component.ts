@@ -45,11 +45,9 @@ export class UserProfileComponent implements OnInit {
       language:['',Validators.required],
       gender:['',Validators.required],
       aboutYou:['',Validators.required],
-      uploadPhoto:['',Validators.required],
-      agreetc:['',Validators.required],
-      role:['',Validators.required],
+      uploadPhoto:['',Validators.required]
     });
-    
+    this.editUserData(this.user_id);
   }
 
   get rf(){
@@ -61,7 +59,7 @@ export class UserProfileComponent implements OnInit {
       this.user_data = data;
       this.user_profile_pic = this.user_data.uploadPhoto;
       this.user_language = this.user_data.language;
-      this.user_role = this.user_data.role;
+      this.user_role = this.user_data.role;  
       this.userProfileForm.setValue({
         name:this.user_data.name,
         mobNumber:this.user_data.mobNumber,

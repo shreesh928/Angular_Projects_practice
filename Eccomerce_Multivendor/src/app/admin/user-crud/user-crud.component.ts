@@ -38,7 +38,7 @@ export class UserCrudComponent implements OnInit {
 
   ngOnInit(): void {
 
-
+    
     //All user data function is called
     this.getAllUser()
 
@@ -63,6 +63,9 @@ export class UserCrudComponent implements OnInit {
       role: ["",Validators.required],
     });
   }
+
+
+  
 
 
 
