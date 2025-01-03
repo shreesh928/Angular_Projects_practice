@@ -122,7 +122,7 @@ export class SigninSignupComponent {
         }else if(this.user_data[0].role == "buyer"){
           sessionStorage.setItem("user_session_id",this.user_data[0].id);
           sessionStorage.setItem("role",this.user_data[0].role);
-          this.router.navigateByUrl("./buyer-dashboard");
+          this.router.navigateByUrl("/buyer-dashboard");
         }else{
           alert("Invalid credentials");
         }
